@@ -1,0 +1,52 @@
+html{
+    height: 100%;
+}
+
+body{
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background: #DAE2F8;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #D6A4A4, #DAE2F8);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #D6A4A4, #DAE2F8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+
+}
+
+.thumbnail{
+    padding: 0;
+}
+
+.thumbnail img{
+    width: 100%;
+}
+
+.thumbnail .caption-full{
+    padding: 9px;
+}
+
+.delete-form {
+    display: inline;
+}
+
+#map{
+    height: 400px;
+    width: 100%;
+}
+
+.jumbotron {
+    background-image: url(https://atticusblog.com/wp-content/uploads/bfi_thumb/5-4-ncuao35z2scd5jz9pykz36bdk9ldry8jm96jthug2w.jpg);
+    background-size: cover;
+    
+}
+
+.jumbotron h1{
+    color: #93c3ff;
+}
+
+.jumbotron p{
+    color: #93c3ff;
+}
+
