@@ -17,7 +17,9 @@ var commentRoutes =require("./routes/comments"),
     locationRoutes = require("./routes/showfinders"),
     indexRoutes = require("./routes/index");
 
-mongoose.connect("mongodb://localhost/ShowFindrFinal");
+//mongoose.connect("mongodb://localhost/ShowFindrFinal");
+mongoose.connect("mongodb://shah:battle24@ds039017.mlab.com:39017/showfindr");
+//mongodb://shah:battle24@ds039017.mlab.com:39017/showfindr
 app.use(bodyParser.urlencoded({extended: true}));
 app.set("view engine", "ejs");
 app.use(express.static(__dirname + "/public"));
